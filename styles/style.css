@@ -1,0 +1,140 @@
+.cont{
+	margin: 0 90px;
+}
+
+.maheader{
+	width: 100%;
+}
+.mheader .cont{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.mheader .cont img{
+	width: 150px;
+}
+.mheader .cont nav{
+	margin-left: 100px;
+}
+.mheader .cont nav li{
+	display: inline-block;
+	padding: 0 10px;
+}
+.mheader .cont nav li a{
+	font-family: 'Roboto-regular';
+	color: #3D58A6;
+	text-decoration: none;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.mheader .cont nav li a:hover{
+	opacity: 40%;
+}
+
+.social-media-icons {
+	margin-left: 200px;
+}
+
+.fa {
+	border-right: 2px solid blue;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 30px;
+	color: #3D58A6;
+}
+
+.fa-search {
+	border-right: none;
+ 	color: red;
+}
+
+.main-header .container .social-media-icons a:hover {
+	display: inline-block;
+	opacity: 0%;
+}
+.burger {
+	display: none;
+
+}
+.burger img{
+	width:20px; height:50px;
+}
+.bannerwr {
+	background-color: #bebebe;
+	position: relative;
+
+
+}
+
+
+.bannerwr .image-container{
+	width: 100%;
+}
+
+
+.bannewr .image-container .baner{
+	width: 100%;
+
+}
+.image-container{
+	position: relative;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.txtcont{
+    font-family: 'Roboto-bold';
+	position: absolute;
+	top:auto;
+	left:2.5%;
+	bottom:15%;
+	color: white;
+	text-transform: uppercase;
+	font-size: 20pt;
+
+}
+.minilogo{
+	position: absolute;
+	width: 100px;
+	right: 3%;
+	bottom: 15%;
+}
+
+.video-cont{
+	background-color: #363E97;
+	height: 500px;
+}
+
+.video-cont .video-header h2 {
+	font-family: 'Roboto-bold';
+	color: white;
+	margin-left: 30px;
+	padding-top: 30px;
+	font-size: 24pt;
+	text-align: center;
+}
+
+.video-cont .video-box{
+	margin-top: 50px;
+	width:320px;
+	height: 320px;
+	background-color: #bebebe;
+	display:inline-block;
+
+	
+}
+.video-cont .container{
+	position: relative;
+} 
+.video-cont .video-box.right-video{
+	position: absolute;
+	right: 0;
+	box-sizing: border-box;
+}
+
+.video-cont .video-box.left-video .right-video:hover{
+	 animation-name: EMBEDED YOUTUBE VIDEO GOES HERE;
+	animation-duration: 2s;
+	
+	
+}
