@@ -103,6 +103,7 @@
 .video-cont{
 	background-color: #363E97;
 	height: 500px;
+	position: relative;
 }
 
 .video-cont .video-header h2 {
@@ -116,7 +117,7 @@
 
 .video-cont .video-box{
 	margin-top: 50px;
-	width:320px;
+	width:560px;
 	height: 320px;
 	background-color: #bebebe;
 	display:inline-block;
@@ -128,7 +129,7 @@
 } 
 .video-cont .video-box.right-video{
 	position: absolute;
-	right: 0;
+	right: 90px;
 	box-sizing: border-box;
 }
 
@@ -136,5 +137,38 @@
 	 animation-name: EMBEDED YOUTUBE VIDEO GOES HERE;
 	animation-duration: 2s;
 	
+	
+}
+.ncont{
+	background-color: #BDCCD4;
+ padding: 90px;
+}
+
+.nheader {
+	font-family: 'Roboto-regular';
+	font-size: 24pt;
+	color: blue;
+	display: flex;
+	display: inline-block;
+}
+
+.ncont.article-container{
+	display: flex;
+	justify-content: space-between;
+	margin-top:34px;
+	flex-wrap:wrap; 
+}
+.article-item{
+	box-shadow:2px 3px 2px black, ;
+}
+.ncont .article-container .article-item .article-text{
+	font-family: 'Roboto-regular';
+	width:100%;
+	font-size:22px;
+	padding: 20px;
+	position: relative;
+	background-color: #E6E6E6;
+	box-sizing:border-box;
+	color: #333333;
 	
 }
