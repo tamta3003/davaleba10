@@ -141,9 +141,8 @@
 }
 .ncont{
 	background-color: #BDCCD4;
- padding-top:20px; 
- padding-bottom:90px;
- padding: 20PX
+ padding-bottom: 90px;
+ padding-top: 20PX;
 
 }
 
@@ -161,7 +160,9 @@
 	flex-wrap:wrap; 
 }
 
-
+.article-item{
+	box-shadow:2px 3px 2px black, ;
+}
 .ncont .article-container .article-item .article-text{
 	font-family: 'Roboto-regular';
 	width:100%;
