@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>float</title>
+    <meta name="description" content="Web responsive">
+    <meta name="keywords" content="HTML,CSS,">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="styles/reset.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,7 +13,9 @@
 <body>
 <header class="mheader">
 	<div class="cont">
+		<div class="logo">
 		<img src="images/html.svg" alt="logo">
+         </div>	
 		<nav>
 			<li><a href="#">home</a></li>
 			<li><a href="#">news</a></li>
@@ -19,14 +23,24 @@
 			<li><a href="#">contact</a></li>
 		</nav>
 		<div class="socmedia">
-	        <a href="#" class="fa fa-google"></a>
-			<a href="#" class="fa fa-facebook"></a>
-			<a href="#" class="fa fa-youtube"></a>
-			<a href="#" class="fa fa-search"></a>
+	        <a href="#" ><img src="images/img1.png" alt="gt"></a>
+			<a href="#" ><img src="images/fb.png " alt="fb"></a>
+			<a href="#" > <img src="images/yt.png" alt="yt"></a>
+		</div>
+		<div class="seacher-box">
+			<img src="images/img2.png" alt="seacher">
 		</div>
 			<div class="burger"> 
-		    <img src="images/Hamburger.svg" alt="hamburger">
-		</div>
+		    
+		    	<a href="#">	
+					<div class="burger">
+						<img src="images/Hamburger.svg" alt="hamburger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</a>
+		
 	</div>
 </header>
  <div class="bannerwr">
@@ -46,60 +60,68 @@
 <section class="video-cont">
 	<div class="cont">
 		<div class="video-header">
-			<h2>Videos | view all videos</h2>
-			<div class="video-box left-video"></div>
-			<div class="video-box right-video"></div>
+			<h2 class="h2">Videos | view all videos</h2>
+			<div class="video-box left-video">
+				<h2>embeded youtube video goes here</h2>
+			</div>
+			<div class="video-box right-video">
+				<h2>embeded youtube video goes here</h2>
+			</div>
 		</div>
 	</div>
 </section>
-
-<section class="ncont">
-	<div class="cont">
-		<div class="nheader">
-			<h2>NEWS | <span>view all news</span></h2>
-			<div class="article-container">
-				<article class="article-item">
+<section class="article-container">
+			<h2 class="header">NEWS | <a href="#"> view all news</a></h2>
+			<div class="padding">
+				<article class="typo article">
 					<img class="article-image" src="images/thypography.png" alt="artilce images">
-					<h3 class="article-text">Typography Lab</h3>
+					<div class="article-animation">
+						<h2>tyopgraphy lab</h2>
+					</div>	
 				</article>
-				<article class="article-item">
-					<img class="article-image" src="images/socmedia.jpg" alt="artilce images">
-					<h3 class="article-text">ONLINE MARKETING</h3>
+                <article class="pc article">
+					<img src="images/socmedia.jpg" alt="#">
+					<div class="article-animation">
+						<h2>online marketing</h2>		
+					</div>
 				</article>
-				<article class="article-item">
-					<img class="article-image" src="images/face.jpg" alt="artilce images">
-					<h3 class="article-text">C# CODING</h3>
+          <article class="c-sharp article">
+				<img class="article-image" src="images/face.jpg" alt="artilce images">
+					<div class="article-animation">
+						<h2>c# coding</h2>
+					</div>    		
 				</article>
-				<article class="article-item">
-					<img class="article-image" src="images/img3.png" alt="artilce images">
-					<h3 class="article-text">INTERFACE DESIGN</h3>
+		<article class="interface article">
+			<img class="article-image" src="images/img3.png" alt="artilce images">
+					<div class="article-animation">
+						<h2>interface coding</h2>
+					</div>	
 				</article>
-			</div>
-		</div>
-	</div>
-</section>
- <section class="fcont">
-	<div class="fcont">
-		<div class="fheader">
-			<div class="fbox left-box">
-				<h2>Responsive Web Design</h2>
-				<img src="images/img4.png" alt="hand"> 
-				<p>approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
-			</div>
-			<div class="fbox right-box">
-				<h2>APP DEVELOPMENT</h2>
-				<img src="images/img5.png" alt="hand"> 
-				<p>approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
-			</div>				
-			</div>
-		</div>
-	</div>
-</section>
+			</div>	
+		</section>
+
+<section class="featured-container">
+			<h2 class="header">FEATURED | <a href="#">view all featured media</a></h2>
+			<div class="padding">
+					<div class="featured-news left-news">
+						<h2>responsive web design</h2>
+						<img src="images/img4.png" alt="hand"> 
+						<p class="content">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+						<p class="more"><a href="#">read more</a></p>
+					</div>
+					<div class="featured-news right-news">
+						<h2>app development</h2>
+						<img src="images/img5.png" alt="hand"> 
+						<p class="content content2">Mobile application development is the process of making or creating a mobile application to run on various mobile platforms. A mobile platform is a mobile operating system.</p>
+						<p class="more"><a href="#">read more</a></p>
+					</div>
+			</div>	
+		</section>		
 <footer>
 
 <section class="footer-text">
 	<h2>©2017 hyper text murkup language</h2>
-	 <span>created by: ME</span>
+	 <span>created by: tamta</span>
 </section>
 </footer>
 
